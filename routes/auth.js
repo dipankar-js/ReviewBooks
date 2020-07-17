@@ -14,7 +14,7 @@ router.get(
 		failureRedirect: '/'
 	}),
 	(req, res) => {
-		res.redirect('/dashbaord');
+		res.redirect('/dashboard');
 	}
 );
 module.exports = router;
